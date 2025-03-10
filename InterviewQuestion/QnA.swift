@@ -113,11 +113,35 @@
  20. What is the diff beween struct and class in swift ?
      Structs are value types, classes are refrence type.
  
+ 21. What is OperationQueue ?
+    It manages a queue of tasks, providing better control than GCD.
+    
+    let queue = OperationQueue()
+    queue.addOperation {
+    print("Executing task")
+    }
+
+22. What is NSCache and how is it different from UserDefaults?
+    NSCache:  is an in-memory catch that automatically removes object when memory is low.
+    UserDefaults: stores persistent data but is not optimized for large objects.
  
+23. What is UIApplication.shared ?
+    It provides a reference to the instance, allowing interactions like opening URLs, setting the badge number, or handling background tasks.
  
+ 24. What is the difference between frame, bounds, and center in UIKit?
+      frame: The view’s position relative to its superview.
+      bounds: The view’s position relative to itself.
+      center: The center point of the view relative to its superview.
  
+ 25. What is Responder Chain in UIKit?
+     The Event-handling system in UIKit where touch events propagate from UIView -> UIViewController -> UIApplication -> AppDelegate.
  
- 
+ 26. What are the lifecycle methods of a UIViewController ?
+     i. viewDidLoad
+     ii. viewWillAppear
+     iii. viewDidAppear
+     iv. viewWillDisappear
+     v. viewDidDisappear
  
  
  
