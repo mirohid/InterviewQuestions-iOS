@@ -206,10 +206,59 @@
     A modern, efficient way to update UITableView and UICollection data.
  
  39. How do you prevent retain cycle in closure
+     Use [weak self] or [unowned self] inside closures.
+     { [weak self] in self?.doSomething() }
+
+ 40. What is @objc in Swift?
+     it makes Swift methods available to Objective-C
  
+ 41. What is CFRunloop ?
+     A Core Foundation API that mamages input sources for apps.
  
+ 42. What is the diff between copy and retain in Objective-C?
  
+     copy: Creates a new copy.
+     retain: Increments that refrence count.
  
+ 43. What is Bundle.main ?
+   It represents the main bundle, useful for accessing resources.
+ 
+ 44. How do you play a video i iOS ?
+     Use AVPlayerViewController.
+     
+     let player = AVPlayer(url: url)
+     let playerController = AVPlayerViewController()
+     playerController.player = player
+     present(playerController, animated: true)
+
+ 45. What is URLSession?
+    A Swift API for network calls.
+ 
+ 46. What is map, filter, and reduce?
+    Functional programming methods in Swift.
+ 
+ 47. What is dynamic in Swift?
+    It enables runtime dispatch.
+
+ 
+ 48. What is associatedObject in Swift?
+    It adds properties to existing classes.
+
+ 
+ 49. What is guard in Swift?
+      Used for early exits.
+      guard let name = optionalName else { return }
+
+ 
+ 50. What is do-catch in Swift?
+     Error handling in Swift.
+     do {
+      try someThrowingFunction()
+    } catch {
+      print(error.localizedDescription)
+     }
+
+
  
  
  
