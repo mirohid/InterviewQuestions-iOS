@@ -105,7 +105,80 @@
         Text("This is a sheet")
       }
 
-   
+ 
+ 
+ Basic SwiftUI Concepts
+
+ What is SwiftUI and how does it differ from UIKit?
+ Explain the declarative syntax approach in SwiftUI.
+ What are the core building blocks of a SwiftUI view?
+ How does the View protocol work in SwiftUI?
+ Explain the difference between HStack, VStack, and ZStack.
+ What is a @State property wrapper and when would you use it?
+ Explain the purpose of @Binding property wrapper.
+ What is @ObservedObject and how does it differ from @State?
+ How does @EnvironmentObject work in SwiftUI?
+ What is the difference between @StateObject and @ObservedObject?
+
+ Layout and UI Components
+
+ Explain how layout works in SwiftUI.
+ What are alignment guides and how do they work?
+ How do you create custom modifiers in SwiftUI?
+ Explain the concept of view preferences in SwiftUI.
+ How do you handle dynamic type and accessibility in SwiftUI?
+ What is GeometryReader and when would you use it?
+ How do you implement drag gestures in SwiftUI?
+ Explain how to create a custom shape in SwiftUI.
+ What are the different ways to create lists in SwiftUI?
+ How do you handle navigation in SwiftUI?
+
+ Data Flow and State Management
+
+ Explain the MVVM pattern in the context of SwiftUI.
+ What is the difference between @ObservedObject and @EnvironmentObject?
+ How do you manage global state in a SwiftUI application?
+ Explain how Combine framework integrates with SwiftUI.
+ What is the purpose of the .environmentObject() modifier?
+ How can you use UserDefaults with SwiftUI?
+ What is the @AppStorage property wrapper?
+ Explain how to use Core Data with SwiftUI.
+ What is @FetchRequest and how does it work?
+ How do you handle asynchronous operations in SwiftUI?
+
+ Advanced Topics
+
+ How does SwiftUI's view update cycle work?
+ What is PreferenceKey protocol and how is it used?
+ Explain the ViewBuilder attribute in SwiftUI.
+ How do you create reusable components in SwiftUI?
+ What are property wrappers and how are they used in SwiftUI?
+ Explain the concept of view composition in SwiftUI.
+ What is LazyVStack/LazyHStack and when would you use them?
+ How do you handle animations in SwiftUI?
+ What is matchedGeometryEffect and how is it used?
+ How do you manage the app lifecycle in SwiftUI?
+ Explain how to implement dark mode support in SwiftUI.
+
+ Performance and Best Practices
+
+ What are common performance pitfalls in SwiftUI and how to avoid them?
+ How can you optimize SwiftUI views for better performance?
+ Explain equatable protocol usage with SwiftUI views.
+ How does SwiftUI handle memory management?
+ What are best practices for organizing SwiftUI code?
+ How do you implement unit tests for SwiftUI views?
+ What is the purpose of @ViewBuilder in SwiftUI?
+ How do you debug SwiftUI applications?
+ Explain how to handle errors and error states in SwiftUI.
+
+ Integration and Compatibility
+
+ How do you integrate UIKit components with SwiftUI?
+ Explain how to use SwiftUI with existing UIKit projects.
+ What is UIViewRepresentable and how is it used?
+ How do you integrate CoreML with SwiftUI?
+ What are the backward compatibility considerations when using SwiftUI?
 
  
  */
