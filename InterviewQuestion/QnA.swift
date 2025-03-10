@@ -143,9 +143,69 @@
      iv. viewWillDisappear
      v. viewDidDisappear
  
+ 27. What is the diff between Present() and pushViewController() ?
+   Present() :    i. Present a modal view controller
+                  ii. Use for pop-ups and modals
+  
+   pushViewController() :
+                   i. Pushes a view on a navigation stack
+                   ii. Requires a UIVnavigationController
+ 
+ 28. What is UIScrollView ?
+     A scrollable view that allows panning and zooming.
+ 
+ 29. How do you create a UICollectionView?
+     You define a UICollectionViewFlowLayout and set the UICollectionViewDataSource
+     
+     Example:
+         func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+          let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+           return cell
+          }
+
+ 
+ 30. 30. What is MVVM architecture?
+     A design pattern with:
+
+          Model: Data & business logic.
+          ViewModel: Processes data for the view.
+          View: Displays UI.
+ 
+ 31. What is @available in Swift?
+     It checks iOS version compatibility.
+      @available(iOS 14.0, *)
+      func newFeature() { }
+
+   
+ 32. What are the different app states in iOS?
+      Active:   Running in the foreground.
+      Inactive:   Temporary transition state.
+      Background:  Running but not visible.
+      Suspended:  Not executing, stored in memory.
+      Terminated:  Removed from memory.
+ 
+ 33. How do you implement Deep Linking ?
+    Use UIApplicationDelegate's openURL method or Universal Links.
+ 
+ 34. What is KeyChain in iOS ?
+    A secure storage for passwords and sensitive data
  
  
+ 35.  What is CFNetwork ?
+   A low- level networking API for handling HTTP, FTP, and DNS.
  
+ 36. what is sandboxing in iOS?
+ 
+   Each app runs in an isolated container for security.
+   
+ 37. What is diff between Codable and NSCoding ?
+    Codable :  (Swift) is easier and type-safe
+    NSCoding : (Objective-C) requires manual encoding/decoding
+ 
+ 38. What is diffable data source ?
+    A modern, efficient way to update UITableView and UICollection data.
+ 
+ 39. How do you prevent retain cycle in closure
  
  
  
